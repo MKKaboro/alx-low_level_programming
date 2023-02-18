@@ -5,7 +5,8 @@
 #include <stdio.h>
 
 /**
- *  print the last digit of the number stored in the variable n
+ * main - Prints the last digit of the number stored in the variable n
+ * Return : Always (Success)
  *
 */
 
