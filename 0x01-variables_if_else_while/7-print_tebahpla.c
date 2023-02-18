@@ -8,9 +8,15 @@
  *
  */
 
-int main(void)z														for (d = 0; d <= 9; d++)
-	putchar(d);
+int main(void)
+
+{
+ 
+      char low;
+      
+	for (low = 'z'; low >= 'a'; low--)
+ 	putchar(low);
 	putchar('\n');
 
-	return (0);
+        return (0);
 }
