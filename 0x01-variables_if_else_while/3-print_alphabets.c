@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 
-/** main - Prints the alphabet in lowercase, and then in uppercase
+/** 
+ * main - Prints the alphabet in lowercase, and then in uppercase
  * Return: Always 0 Success
  *
  */
@@ -15,7 +16,7 @@ int main(void)
 	for (low = 'a'; low <= 'z'; low++)
 		putchar(low);
 
-	for (low = 'A'; low <= 'z'; low++)
+	for (low = 'A'; low <= 'Z'; low++)
 		putchar(low);
 	putchar('\n');
 
