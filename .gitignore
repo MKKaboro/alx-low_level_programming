@@ -1,0 +1,16 @@
+# Compiled binaries
+*.o
+*.out
+*.exe
+*_test
+100-print_comb3
+102-print_comb5
+
+# Build artifacts
+*.a
+*.so
+
+# Temporary files
+*.tmp
+*~
+.*.swp
